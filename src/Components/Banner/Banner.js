@@ -6,7 +6,7 @@ import Ebay from '../Img/ebay.png';
 import Nestle from '../Img/nestle.png';
 import Ogly from '../Img/ogly.png';
 import Zoho from '../Img/zoho.png';
-import { Player } from 'video-react';
+import Download from '../Img/download.jpg';
 import './Banner.css';
 function Banner() {
   return (
@@ -44,9 +44,9 @@ function Banner() {
                  <Col md={7} xs={12}>
                    <Container>
                      <div className='video-section'>
-                     <Player className='vc'>
-                      <source src="../../img/pd-hero.mp4" />
-                    </Player>
+                     
+                     <img src={Download} className='download' alt="download"/>
+                    
                      </div>
                    </Container>
                  </Col>

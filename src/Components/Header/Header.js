@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import './Header.css';
 import Logo from '../../logo.svg';
-import {Collapse,Navbar,NavbarToggler,NavbarBrand,Nav,NavItem,Container,Button} from 'reactstrap';
+import {Collapse,Navbar,NavbarToggler,Nav,NavItem,Container,Button} from 'reactstrap';
 import {Dropdown} from 'react-bootstrap';
 
     import {Link } from "react-router-dom";
@@ -16,7 +16,7 @@ function Header(){
           <Navbar light expand="md">
           <Container fluid>
             <div className="d-flex justify-content align-center ft-size">
-              <NavbarBrand href="/"><img src={Logo} className='logo' alt="Logo" /></NavbarBrand>
+              <Link to="/"><img src={Logo} className='logo' alt="Logo" /></Link>
               <div className="right">
               <NavItem>
                 <Link to="#" className="nav-link white book">Pricing</Link>
