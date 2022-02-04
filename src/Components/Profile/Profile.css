@@ -1,0 +1,64 @@
+.profile-section{
+    padding-top: 100px;
+    padding-bottom: 30vh;
+    background-color: hsla(0, 0%, 100%, 0);
+    background-image: url(https://assets-global.website-files.com/5f4ec53…/5fd150d…_green-pill.svg), linear-gradient(
+143deg
+, #eefee9 32%, #d7f6e2 73%, #a5e9d6);
+}
+.para-section5{
+    font-size: 20px;   
+    font-weight: 600;
+    margin-top: 12px;
+}
+.profile-img img{
+   
+        height: 100%;
+        width: 100%;
+        min-height: 300px;
+        max-width: 299px;
+        border-radius: 10px;
+    
+}
+.p-txt {
+    float: right;
+    font-size: 22px;
+    font-weight: 800;
+    margin-right: 102px;
+}
+.a-txt{
+    float: right;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 102px;
+    color: #0000ee;
+}
+
+.last-section{
+    min-height: 400px;  
+    position: relative;
+    top: -80px;  
+    padding-bottom: 100px;
+    border-radius: 20px;
+    background-color: #47beba;
+}
+.lst-head{    
+    padding-top: 100px;
+    color: #fff;
+    font-size: 50px;   
+    text-align: center; 
+    font-weight: 600;  
+}
+.lst-para{
+    color: #fefefe;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+}
+
+ul.clr {
+   
+    list-style-type: none;
+    font-size: 18px;
+}

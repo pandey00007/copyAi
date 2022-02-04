@@ -1,0 +1,32 @@
+.magic-section{
+    background-image: url(https://assets-global.website-files.com/5f4ec53…/5fd14c1…_3-pills.svg), url(https://assets-global.website-files.com/5f4ec53…/5fd14c1…_2-pills.svg), linear-gradient(
+        180deg
+        , #f8fafe, #f1fde8 21%, #a6e9d6 70%, #f8fafe 103%);
+        display: block;
+    min-height: 80vh;
+    margin-bottom: 0px;
+    padding-top: 20vh;
+    padding-bottom: 10vh; 
+}
+.head-content6{
+    color: #160647;
+    font-size: 40px;
+    font-weight: 700;
+}
+.para-section1{
+color: #6e6d7a;
+    font-size: 16px;
+    font-weight: 600;
+}
+.k1{
+    
+    width: 100%;
+    box-shadow: 0px 3px 9px 0px rgb(0 0 0 / 50%);
+}
+.magic-img {
+    padding: 0px 8px;
+   
+}
+.nb{
+    margin-bottom: 41px;
+}
