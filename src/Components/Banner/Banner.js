@@ -14,7 +14,9 @@ function Banner() {
       <div className='bannerBg'>
           <Container>
              <Row>
+             
                  <Col md={5} xs={12}>
+                   
                     <h2 className='head-content'>Faster, Fresher,</h2>
                     <span className='head-content1'>Better Copy</span>
                     <div className='para-section mt-3'>
@@ -49,7 +51,9 @@ function Banner() {
                     
                      </div>
                    </Container>
+                  
                  </Col>
+                
              </Row>
           </Container>
           <Container>

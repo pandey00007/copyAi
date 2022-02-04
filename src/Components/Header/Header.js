@@ -13,7 +13,7 @@ function Header(){
     const toggle = () => setIsOpen(!isOpen);
     return (
         <div>
-          <Navbar light expand="md">
+          <Navbar light expand="md" className="navbar-fixed-top">
           <Container fluid>
             <div className="d-flex justify-content align-center ft-size">
               <Link to="/"><img src={Logo} className='logo' alt="Logo" /></Link>

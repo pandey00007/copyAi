@@ -3,6 +3,7 @@ import './Home.css';
 import Bannerhome from '../Banner/Banner'
 import Features from '../Features/Features';
 import Client from '../Client/Client';
+import Card from '../Cardsection/Cardsection';
 
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
      <Bannerhome /> 
      <Features />
      <Client />
+     <Card />
     </>
   );
 }

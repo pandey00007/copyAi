@@ -33,7 +33,12 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.navbar-fixed-top{
+  position:fixed;
+  z-index: 9;
+  width:100%;
+  background-image: url(../src/Components/Img/background.svg);
+}
 .App-link {
   color: #61dafb;
 }
