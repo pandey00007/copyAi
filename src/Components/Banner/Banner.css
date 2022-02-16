@@ -117,5 +117,94 @@ text-align: center;
     margin:0px auto;
     color:#d6d6d6;
 }
+/* for phone start */
+@media (max-width:720px){
+    .head-content {
+        color: #000;
+        font-size: 37px;
+        letter-spacing: -3.09px;
+        font-weight: 600;
+    }
+    .head-content1{
+        font-size: 37px;
+    }
+    .para-section p {
+        color: #160647;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .signin {
+        height: 47px;
+        margin-left: 60px;
+        margin-bottom: 10px;
+    }
+    .hr-section {
+        position: relative;
+        text-align: center;
+        width: 330.45px;
+    }
+    button.btn.btn-primary {
+        padding: 9px 20px;
+        margin-left: 59px;
+    }
+    .term-section p span {
+        color: blue;
+        font-size: 9px;
+        font-weight: 700;
+    }
+    .video-section {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 7px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 10px solid #160248;
+    }
+    .head-content4 {
+        color: #160647;
+        font-size: 41px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: -63px;
+    }
+    
+}
+/* for phone end */
+/* for Ipad */
+@media (max-width:1024px){
+    .head-content {
+        color: #000;
+        font-size: 36px;
+        letter-spacing: -3.09px;
+        font-weight: 600;
+        margin-top: 26px;
+    }
+    .head-content1 {
+    font-size: 49px;
+    }
+    .video-section{
+        margin-top: 115px;
+    }
+    
+    .grid-60 {
+        padding-top: 53px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+       
+        background-position: 78% 11%, 21% 44%!important;
+        background-size: 30%, 30%;
+        background-repeat: no-repeat, no-repeat;
+    }
+    .head-content4 {
+        color: #160647;
+        font-size: 60px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: -64px;
+    }
 
+}
+/* enf for ipad */
 

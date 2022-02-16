@@ -6,8 +6,7 @@ import Client from '../Client/Client';
 import Card from '../Cardsection/Cardsection';
 import Magic from '../Magic/Magic'
 import Profile from '../Profile/Profile'
-import Footer from '../Footer/Footer';
-
+import Navbar from '../Navbar/Navbar';
 
 
 
@@ -20,7 +19,7 @@ function Home() {
      <Card />
      <Magic />
      <Profile />
-     <Footer />
+     <Navbar />
     </>
   );
 }

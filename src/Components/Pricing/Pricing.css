@@ -1,0 +1,110 @@
+.price{
+    margin-top: 12vh;
+    margin-bottom: 25px;
+    color: #160647;
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+
+}
+.price2{
+    color: #6e6d7a;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+   
+}
+.a1{
+    background-color: #47beb9;
+    color: #fff;
+}
+.a1 button{
+    background: #fff;
+    color:#47beb9;
+    font-weight: 600;
+}
+button.active{background:#659832;}
+.price3{
+    color: #47beb9;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    text-decoration: none;
+    
+}
+.free{
+    text-align: right!important;
+}
+.price-btn1{
+    border: none;
+    padding: 12px 51px;
+    margin: 4px 15px 23px 28px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    background: #47beb9;
+}
+.price-btn2{
+    border: none;
+    padding: 11px 98px;
+    margin: 4px 12px 17px 34px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    background: #47beb9;
+}
+.yy {
+    margin-left: 26px;
+    color: #6e6d7a;
+    font-weight: 600;
+    font-size: 14px;
+}
+.ft-11 {
+    font-size: 22px;
+    padding: 14px 31px;
+    font-weight: 600;
+    margin: 0;
+}
+.rr {
+    margin-left: 26px;
+    font-size: 38px;
+    font-weight: 600;
+}
+.ry {
+    margin-left: 26px;
+    margin-bottom: 32px;
+    color: #6e6d7a;
+    font-size: 14px;
+    font-weight: 600;
+}
+.list-sty1 i{
+    margin-right: 16px;
+    color: #47beb9;
+}
+.a1 .list-sty1 i{
+    margin-right: 16px;
+    color: #fff;
+}
+.btn-primary:focus{
+    background-color:none;
+    border: none;
+    box-shadow: 0 0 0 0;
+}
+
+ul.clr1 {
+   
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+button.tgl {
+    margin-top: 56px;
+    border-radius: 0;
+    padding: 7px 20px;
+    width: 100px;
+    text-align: center;
+    background: #160647;
+    border: none;
+}

@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import './Header.css';
 import Logo from '../../logo.svg';
 import {Collapse,Navbar,NavbarToggler,Nav,NavItem,Container,Button} from 'reactstrap';
-import {Dropdown} from 'react-bootstrap';
+
 
     import {Link } from "react-router-dom";
     // import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
@@ -16,18 +16,22 @@ function Header(){
           <Navbar light expand="md" className="navbar-fixed-top">
           <Container fluid>
             <div className="d-flex justify-content align-center ft-size">
-              <Link to="/"><img src={Logo} className='logo' alt="Logo" /></Link>
+              <Link to="/home"><img src={Logo} className='logo' alt="Logo" /></Link>
+              
+            <NavbarToggler onClick={toggle} />
+            <Collapse isOpen={isOpen} navbar>
+              <Nav className="ml-auto" navbar>
               <div className="right">
               <NavItem>
-                <Link to="#" className="nav-link white book">Pricing</Link>
+                <Link to="/pricing" className="nav-link white book">Pricing</Link>
               </NavItem>
               <NavItem>
-                <Link to="#" className="nav-link white book">Contact</Link>
+                <Link to="/contact" className="nav-link white book">Contact</Link>
               </NavItem>
               <NavItem>
-                <Link to="#" className="nav-link white book">Training</Link>
+                <Link to="/training" className="nav-link white book">Training</Link>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <Dropdown>
                 <Dropdown.Toggle id="dropdown-basic">
                   Resources
@@ -38,9 +42,9 @@ function Header(){
                   <Dropdown.Item href="#">Something else</Dropdown.Item>
                 </Dropdown.Menu>
                 </Dropdown>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
-                <Link to="#" className="nav-link white book">Login</Link>
+                <Link to="/" className="nav-link white book">Login</Link>
               </NavItem>
               <NavItem>
                 <Link to="/signup" className="nav-link white book">Signup</Link>
@@ -49,16 +53,10 @@ function Header(){
                 <Button className="btn-blue">Get Started</Button>
               </NavItem>
               </div>
-            </div>
-            <NavbarToggler onClick={toggle} />
-            <Collapse isOpen={isOpen} navbar>
-              <Nav className="ml-auto" navbar>
-                <NavItem>
-                  <Link to="/" className="nav-link white noBor mt-8"></Link>
-                </NavItem>
                 
               </Nav>
             </Collapse>
+            </div>
             </Container>
           </Navbar>
         </div>

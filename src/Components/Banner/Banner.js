@@ -2,10 +2,10 @@ import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import {Button} from 'react-bootstrap'
 import Signin from '../Img/signin.png';
-import Ebay from '../Img/ebay.png';
-import Nestle from '../Img/nestle.png';
-import Ogly from '../Img/ogly.png';
-import Zoho from '../Img/zoho.png';
+// import Ebay from '../Img/ebay.png';
+// import Nestle from '../Img/nestle.png';
+// import Ogly from '../Img/ogly.png';
+// import Zoho from '../Img/zoho.png';
 import Download from '../Img/download.jpg';
 import './Banner.css';
 function Banner() {
@@ -56,7 +56,7 @@ function Banner() {
                 
              </Row>
           </Container>
-          <Container>
+          {/* <Container>
             <Row>
               <div className='mt-32'>
               <h5 className='head-content3'>
@@ -80,7 +80,7 @@ function Banner() {
               
             </Row>
           </Container>
-          
+           */}
       </div>
     </>
   );

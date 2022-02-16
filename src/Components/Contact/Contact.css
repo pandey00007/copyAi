@@ -1,0 +1,35 @@
+.priceq{
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+.priceo{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top:12px;
+    text-align: center;
+}
+.contact-head{
+    font-size: 30px;
+    color: #000;
+    font-weight: 600;
+}
+.contact1{
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+   
+}
+.accordion-item{
+    margin-bottom: 21px;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+.accordion-button:focus{
+    background-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0;
+}

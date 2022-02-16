@@ -51,11 +51,13 @@ function Profile() {
           <div className='dark-free'>
             <Link to="#" className='txt'>Get your free account today <i class="fas fa-arrow-right ml-3"></i></Link>
         </div>
-        <ul className='clr'>
+          <div class="d-flex jC">
+            <ul className='clr'>
               <li><span className='list-sty'><i class="far fa-check-circle"></i>No credit card required</span></li>
               <li><span className='list-sty'><i class="far fa-check-circle"></i>100 free credits when you sign up</span></li>
               <li><span className='list-sty'><i class="far fa-check-circle"></i>90+ tools to explore</span></li>              
             </ul>
+          </div>
         </div>
     </Container>
     </>

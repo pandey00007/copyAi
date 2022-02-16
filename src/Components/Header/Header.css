@@ -12,6 +12,10 @@
     color: #736a91;
     font-weight: 600;
 }
+.nav-link{
+    padding: 0px 1rem;
+}
+
 .dropdown-toggle.btn.btn-primary{
     background-color: transparent;
     border: none;
@@ -43,4 +47,33 @@
     height: 100%;
     max-height: 40px;
 }
+.navbar-expand-md .navbar-collapse{justify-content: end;}
 
+@media (max-width:720px){
+.right li.nav-item {
+    display:block;
+}
+.navbar-toggler:focus {
+    
+     box-shadow: 0 0 0 ;
+}
+.navbar{
+    flex-wrap: nowrap;
+}
+.right{
+    
+        margin-top: 197px;
+        padding: 102px;
+        background: #c1f0e229;
+        color: #000;
+    
+}
+button.btn-blue.btn.btn-secondary {
+    display: none;
+}
+.navbar-light .navbar-nav .nav-link {
+  
+    color: grey;
+}
+
+}
